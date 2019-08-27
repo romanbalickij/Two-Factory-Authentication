@@ -17,4 +17,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::post('/verifyOTP', 'VerifyOTPController@verify');
+Route::get('/verifyOTP', 'VerifyOTPController@showVerifyPage')->name('OTP.page');
+
+Route::group(['middleware' => 'TwoFa'], function (){
+    Route::get('/home', 'HomeController@index')->name('home');
+
+});
+
+
+//Auth::routes();
+
 Route::get('/home', 'HomeController@index')->name('home');

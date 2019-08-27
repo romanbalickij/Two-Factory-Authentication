@@ -3,7 +3,12 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Mail\OTPMail;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+use Illuminate\Mail\Mailable;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Mail;
 
 class LoginController extends Controller
 {
@@ -25,7 +30,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/verifyOTP';
 
     /**
      * Create a new controller instance.
@@ -36,4 +41,39 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+
+    protected function attemptLogin(Request $request)
+    {
+
+        $result =  $this->guard()->attempt(
+            $this->credentials($request), $request->filled('remember')
+        );
+
+        if($result) {
+
+            auth()->user()->sendOTP(request('otp_via'));
+        }
+
+        return $result;
+    }
+
+    /**
+     * Log the user out of the application.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function logout(Request $request)
+    {
+        auth()->user()->update(['isVerified' => 0]);
+        $this->guard()->logout();
+
+        $request->session()->invalidate();
+
+        return $this->loggedOut($request) ?: redirect('/');
+    }
+
+
+
 }
