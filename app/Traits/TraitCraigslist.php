@@ -95,6 +95,7 @@ trait TraitCraigslist
                 );
                 $html = file_get_contents($url, false, $context);
                 $doms = HtmlDomParser::str_get_html($html);
+                  /**здесь прроблема  */
                 $count = $doms->find('span[class="totalcount"]', 0) == null ? '0' : $doms->find('span[class="totalcount"]', 0)->text();
 
 

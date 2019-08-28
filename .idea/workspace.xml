@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ff6f4e-4119-4b34-b925-7835b5088d20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Advertisement.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/TraitCraigslist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_28_144442_create_advertisements_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Console/Commands/ParserCraigslist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/ParserCraigslist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -180,6 +175,7 @@
       <workItem from="1566926316421" duration="4829000" />
       <workItem from="1566976240991" duration="1903000" />
       <workItem from="1567002607154" duration="1447000" />
+      <workItem from="1567010436682" duration="826000" />
     </task>
     <servers />
   </component>
