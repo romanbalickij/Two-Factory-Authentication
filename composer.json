@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^6.3",
         "kub-at/php-simple-html-dom-parser": "^1.9",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "ext-curl": "*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.2",
