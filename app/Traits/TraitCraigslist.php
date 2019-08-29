@@ -55,12 +55,21 @@ trait TraitCraigslist
 
     public function storeStatistics($urls){
 
+
+
+
         foreach ($urls as $id => $linkPagesHousing) {
 
             $englishLink = $linkPagesHousing.'?lang=en&cc=us';
+
+
+
+
+
+
+
+
             $dom = $this->getContent($englishLink);
-
-
             /**getHousing**/
             $housings = $dom->find('div[class="housing"] ul[id="hhh0"] li a');
             $data = [];
@@ -82,7 +91,7 @@ trait TraitCraigslist
             foreach ($data as $key => $value) {
                 $prepareLink = ltrim($key,'/');
                 $url =  $linkPagesHousing.$prepareLink;
-                dump($url);
+              //  dump($url);
 
 //                $dom = $this->getContent($url);
                 $context = stream_context_create(
@@ -98,16 +107,60 @@ trait TraitCraigslist
                   /**здесь прроблема  */
                 $count = $doms->find('span[class="totalcount"]', 0) == null ? '0' : $doms->find('span[class="totalcount"]', 0)->text();
 
-
-                $data = [
-                    'title'    => trim($value,' '),
-                    'quantity' => $count,
-                    'city_id'  => $id
-                ];
-
-                Advertisement::updateOrCreate($data);
-                dump('Advertisement save ');
+//
+//                $data = [
+//                    'title'    => trim($value,' '),
+//                    'quantity' => $count,
+//                    'city_id'  => $id
+//                ];
+//
+//                Advertisement::updateOrCreate($data);
+//                dump('Advertisement save ');
             }
         }
     }
+
+    public function multiCurl($urls)
+    {
+        $multi = curl_multi_init();
+        $handles = [];
+
+        foreach ($urls as $url ) {
+            $ch = curl_init($url);
+            curl_setopt($ch, CURLOPT_HEADER, false);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            curl_multi_add_handle($multi, $ch);
+            $handles[$url] = $ch;
+        }
+
+        do {
+            $mcr = curl_multi_exec($multi, $active);
+
+        }while($mcr = CURLM_CALL_MULTI_PERFORM);
+
+        while ($active && $mcr == CURLM_OK)
+        {
+            if (curl_multi_select($multi) == -1)
+            {
+                usleep(100);
+            }
+            do
+            {
+                $mcr = curl_multi_exec($multi, $active);
+
+            }while($mcr == CURLM_CALL_MULTI_PERFORM);
+        }
+
+        foreach ($handles as $channel) {
+            $html = curl_multi_getcontent($channel);
+            dump($html);
+            curl_multi_remove_handle($multi, $channel);
+
+        }
+
+        curl_multi_close($multi);
+
+    }
+
+
 }

@@ -4,11 +4,11 @@ namespace App\Console\Commands;
 
 use App\Models\Category;
 use App\Models\Country;
-use App\Traits\Craigslist;
+
 use App\Traits\TraitCraigslist;
 use GuzzleHttp\Client;
 use Illuminate\Console\Command;
-use Sunra\PhpSimple\HtmlDomParser;
+
 
 
 class ParserCraigslist extends Command
@@ -49,7 +49,8 @@ class ParserCraigslist extends Command
         $url  = 'https://www.craigslist.org/about/sites';
         $dom  = $this->getContent($url);
         $urls = $this->getCityList($dom);
-        $this->storeStatistics($urls);
+
+     //   $this->storeStatistics($urls);
 
         //  dump($createStatistics);
 

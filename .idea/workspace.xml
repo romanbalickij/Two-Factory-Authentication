@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="51ff6f4e-4119-4b34-b925-7835b5088d20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/ParserCraigslist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/ParserCraigslist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/TraitCraigslist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/TraitCraigslist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/OTP/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/OTP/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +180,8 @@
       <workItem from="1566926316421" duration="4829000" />
       <workItem from="1566976240991" duration="1903000" />
       <workItem from="1567002607154" duration="1447000" />
-      <workItem from="1567010436682" duration="826000" />
+      <workItem from="1567010436682" duration="1094000" />
+      <workItem from="1567071975801" duration="7003000" />
     </task>
     <servers />
   </component>

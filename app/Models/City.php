@@ -14,7 +14,7 @@ class City extends Model
             return City::updateOrCreate([
                 'name'     => $param,
                 'state_id' => $stateId,
-            ]);
+            ])->id;
         }
     }
 }

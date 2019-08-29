@@ -22,9 +22,20 @@
 
                         </div>
                         <input type="submit" value="verify" class="btn btn-info ">
+
+                        <div class="container m-sm-4">
+                            <input type="submit" class="btn btn-sm btn-dark" value="Resent OTP via">
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="via" id="sms" value="sms">
+                        <label class="form-check-label" for="inlineRadio1">SMS</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="via" id="email" value="email" checked>
+                        <label class="form-check-label" for="email">EMAIL</label>
+                    </div>
+                        </div>
                     </form>
-
-
                     </div>
                 </div>
             </div>
