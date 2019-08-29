@@ -107,15 +107,15 @@ trait TraitCraigslist
                   /**здесь прроблема  */
                 $count = $doms->find('span[class="totalcount"]', 0) == null ? '0' : $doms->find('span[class="totalcount"]', 0)->text();
 
-//
-//                $data = [
-//                    'title'    => trim($value,' '),
-//                    'quantity' => $count,
-//                    'city_id'  => $id
-//                ];
-//
-//                Advertisement::updateOrCreate($data);
-//                dump('Advertisement save ');
+
+                $data = [
+                    'title'    => trim($value,' '),
+                    'quantity' => $count,
+                    'city_id'  => $id
+                ];
+
+                Advertisement::updateOrCreate($data);
+                dump('Advertisement save ');
             }
         }
     }
