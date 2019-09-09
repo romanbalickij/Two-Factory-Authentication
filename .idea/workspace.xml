@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ff6f4e-4119-4b34-b925-7835b5088d20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.loc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Console/Commands/ParserCraigslist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/ParserCraigslist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Advertisement.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Advertisement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Traits/TraitCraigslist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/TraitCraigslist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/OTP/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/OTP/verify.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_27_172626_create_countries_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_27_172722_create_states_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_27_172826_create_cities_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_28_144442_create_advertisements_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,6 +127,30 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/vendor/kub-at/php-simple-html-dom-parser" />
+      <path value="$PROJECT_DIR$/vendor/php-curl-class/php-curl-class" />
+      <path value="$PROJECT_DIR$/vendor/phpquery/phpquery" />
+      <path value="$PROJECT_DIR$/vendor/electrolinux/phpquery" />
+      <path value="$PROJECT_DIR$/vendor/chuyskywalker/rolling-curl" />
+      <path value="$PROJECT_DIR$/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa-laravel" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/vendor/ringcentral/psr7" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/clue/buzz-react" />
+      <path value="$PROJECT_DIR$/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/vendor/react/http-client" />
+      <path value="$PROJECT_DIR$/vendor/react/promise-timer" />
+      <path value="$PROJECT_DIR$/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/promise-stream" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
     </include_path>
   </component>
   <component name="ProjectId" id="1PJlMCScLVWkzTxrb67T7NUxPGX" />
@@ -139,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.EmailTest.an_otp_email_is_send_when_user_is_logged_in">
+  <component name="RunManager" selected="PHP Script.HomeController.php">
     <configuration name="EmailTest.an_otp_email_is_not_send_credentials_are_incorrect" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\EmailTest" file="$PROJECT_DIR$/tests/Feature/EmailTest.php" method="an_otp_email_is_not_send_credentials_are_incorrect" scope="Method" />
       <method v="2" />
@@ -152,8 +186,12 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="HomeController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.HomeController.php" />
         <item itemvalue="PHPUnit.EmailTest.an_otp_email_is_send_when_user_is_logged_in" />
         <item itemvalue="PHPUnit.EmailTest.an_otp_email_is_not_send_credentials_are_incorrect" />
       </list>
@@ -181,7 +219,22 @@
       <workItem from="1566976240991" duration="1903000" />
       <workItem from="1567002607154" duration="1447000" />
       <workItem from="1567010436682" duration="1094000" />
-      <workItem from="1567071975801" duration="7003000" />
+      <workItem from="1567071975801" duration="10240000" />
+      <workItem from="1567097919787" duration="11776000" />
+      <workItem from="1567149105981" duration="9630000" />
+      <workItem from="1567160567057" duration="12374000" />
+      <workItem from="1567174947330" duration="4865000" />
+      <workItem from="1567185907252" duration="8552000" />
+      <workItem from="1567199600065" duration="3000" />
+      <workItem from="1567251747482" duration="9252000" />
+      <workItem from="1567262488672" duration="13129000" />
+      <workItem from="1567280050600" duration="6772000" />
+      <workItem from="1567328267419" duration="6842000" />
+      <workItem from="1567336827159" duration="14477000" />
+      <workItem from="1567355858189" duration="3178000" />
+      <workItem from="1567372070664" duration="14000" />
+      <workItem from="1567408813617" duration="4050000" />
+      <workItem from="1568028610394" duration="265000" />
     </task>
     <servers />
   </component>

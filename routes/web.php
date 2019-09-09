@@ -16,12 +16,12 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::get('/parser', 'TestController@index');
 Route::post('/verifyOTP', 'VerifyOTPController@verify');
 Route::get('/verifyOTP', 'VerifyOTPController@showVerifyPage')->name('OTP.page');
 Route::post('/recent_otp', 'ResendOTPController@resend');
 Route::group(['middleware' => 'TwoFa'], function (){
-    Route::get('/home', 'HomeController@index')->name('home');
+
 
 });
 
@@ -29,3 +29,4 @@ Route::group(['middleware' => 'TwoFa'], function (){
 //Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

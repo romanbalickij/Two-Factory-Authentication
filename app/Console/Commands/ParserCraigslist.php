@@ -47,12 +47,11 @@ class ParserCraigslist extends Command
     public function handle()
     {
         $url  = 'https://www.craigslist.org/about/sites';
-        $dom  = $this->getContent($url);
+        $dom  = $this->getContentHtmlDom($url);
         $urls = $this->getCityList($dom);
+        $this->storeStatistics($urls);
 
-     //   $this->storeStatistics($urls);
 
-        //  dump($createStatistics);
 
 
     }
