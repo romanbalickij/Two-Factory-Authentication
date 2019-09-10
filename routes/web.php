@@ -30,3 +30,8 @@ Route::group(['middleware' => 'TwoFa'], function (){
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+Route::get('/test', 'HomeController@test')->name('test');
+Route::post('/file-upload','HomeController@upload')->name('file-upload');
+
+
+

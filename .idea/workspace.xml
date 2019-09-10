@@ -2,58 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ff6f4e-4119-4b34-b925-7835b5088d20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/costom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/docs.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/responsive.scss.css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JTURjIg1_i6t8kCHKm45_ZpC3g3D-w.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JTURjIg1_i6t8kCHKm45_bZF3g3D-w.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JTURjIg1_i6t8kCHKm45_cJD3g3D-w.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JTURjIg1_i6t8kCHKm45_dJE3g3D-w.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/JTUSjIg1_i6t8kCHKm459W1hzg.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/css?family=Montserrat:300,400,500,600,700&amp;subset=cyrillicorig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fancybox_loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfonts.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/shopify_logo.gif?14637679314344765198" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/assets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/currencies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/files_downloaded.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.loc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +147,10 @@
       <path value="$PROJECT_DIR$/vendor/react/promise-stream" />
       <path value="$PROJECT_DIR$/vendor/react/event-loop" />
       <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem-aws-s3-v3" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
     </include_path>
   </component>
   <component name="ProjectId" id="1PJlMCScLVWkzTxrb67T7NUxPGX" />
@@ -257,6 +221,10 @@
       <workItem from="1566926316421" duration="1512000" />
       <workItem from="1568054231685" duration="909000" />
       <workItem from="1568055156616" duration="255000" />
+      <workItem from="1568056997461" duration="1012000" />
+      <workItem from="1568097585849" duration="223000" />
+      <workItem from="1568115614471" duration="3370000" />
+      <workItem from="1568126403030" duration="491000" />
     </task>
     <servers />
   </component>
