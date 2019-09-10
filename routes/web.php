@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/{id}', 'MainController@index');
 
 Auth::routes();
 Route::get('/parser', 'TestController@index');
