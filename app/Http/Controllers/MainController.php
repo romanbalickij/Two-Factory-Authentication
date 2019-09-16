@@ -9,7 +9,15 @@ class MainController extends Controller
 {
     public function index($id)
     {
+       // $product = Product::with(['attributes', 'attributes.getChildren'])->find($id)->get()->first();
+       // return view('welcome', compact('product'));
+
         $product = Product::with(['attributes', 'attributes.getChildren'])->find($id)->get()->first();
-        return view('welcome', compact('product'));
+
+
+        foreach ($product->attributes as $attribute) {
+
+            dump($attribute->attribute,$attribute->getChildren->first()->child_value );
+        }
     }
 }

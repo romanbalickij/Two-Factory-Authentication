@@ -10,4 +10,6 @@ class Attribute extends Model
     {
         return $this->hasMany(AttributeChild::class);
     }
+
+
 }
