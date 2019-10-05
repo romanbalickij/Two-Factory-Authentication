@@ -11,25 +11,15 @@
 |
 */
 
-Route::get('/{id}', 'MainController@index');
+Route::get('/','HomeController@exportForm');
+Route::get('/export', 'HomeController@export')->name('export');
+Route::get('/filter', 'HomeController@filter')->name('filter');
 
+Route::get('/rus', 'HomeController@rus')->name('rus');
 Auth::routes();
-Route::get('/parser', 'TestController@index');
-Route::post('/verifyOTP', 'VerifyOTPController@verify');
-Route::get('/verifyOTP', 'VerifyOTPController@showVerifyPage')->name('OTP.page');
-Route::post('/recent_otp', 'ResendOTPController@resend');
-Route::group(['middleware' => 'TwoFa'], function (){
 
 
-});
 
-
-//Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/test', 'HomeController@test')->name('test');
-Route::post('/file-upload','HomeController@upload')->name('file-upload');
 
 
 

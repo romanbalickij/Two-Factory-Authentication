@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ff6f4e-4119-4b34-b925-7835b5088d20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.loc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.loc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Attribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Attribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Attribute.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AttributeChild.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Commands/TestParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Commands/TestParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_26_170802_create_categories_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_26_170857_create_posts_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_01_101111_create_contries_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_01_101246_create_states_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_01_101651_create_sities_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_10_125028_create_products_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_10_125230_create_attributes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_09_10_130139_create_attribute_children_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +164,10 @@
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
       <path value="$PROJECT_DIR$/vendor/aws/aws-sdk-php" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
     </include_path>
   </component>
   <component name="ProjectId" id="1PJlMCScLVWkzTxrb67T7NUxPGX" />
@@ -219,6 +245,40 @@
       <workItem from="1568128030451" duration="1174000" />
       <workItem from="1568134183067" duration="4389000" />
       <workItem from="1568183949524" duration="5903000" />
+      <workItem from="1568623742344" duration="1123000" />
+      <workItem from="1568640803278" duration="2794000" />
+      <workItem from="1568655014966" duration="10000" />
+      <workItem from="1568745060526" duration="628000" />
+      <workItem from="1568789377995" duration="751000" />
+      <workItem from="1568824154129" duration="1935000" />
+      <workItem from="1568877576647" duration="33000" />
+      <workItem from="1568878838760" duration="644000" />
+      <workItem from="1568887049028" duration="1277000" />
+      <workItem from="1569491776273" duration="7117000" />
+      <workItem from="1569504439821" duration="5716000" />
+      <workItem from="1569517686159" duration="2812000" />
+      <workItem from="1569520951430" duration="4000" />
+      <workItem from="1569522367363" duration="3381000" />
+      <workItem from="1569664961717" duration="27185000" />
+      <workItem from="1569751624020" duration="14082000" />
+      <workItem from="1569769585356" duration="3250000" />
+      <workItem from="1569826986794" duration="700000" />
+      <workItem from="1569861745295" duration="597000" />
+      <workItem from="1569913900139" duration="1587000" />
+      <workItem from="1569950640123" duration="6554000" />
+      <workItem from="1570000385177" duration="5246000" />
+      <workItem from="1570015288014" duration="5295000" />
+      <workItem from="1570034029818" duration="8932000" />
+      <workItem from="1570087846727" duration="2393000" />
+      <workItem from="1570102057381" duration="2300000" />
+      <workItem from="1570105697800" duration="5104000" />
+      <workItem from="1570113658325" duration="1725000" />
+      <workItem from="1570121086656" duration="978000" />
+      <workItem from="1570132981023" duration="1729000" />
+      <workItem from="1570138176545" duration="1548000" />
+      <workItem from="1570172599140" duration="10000" />
+      <workItem from="1570178867819" duration="11696000" />
+      <workItem from="1570193552837" duration="6203000" />
     </task>
     <servers />
   </component>
